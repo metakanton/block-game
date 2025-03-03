@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background: #000;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+canvas {
+    background: white; /* 初期状態は白 */
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    transition: background 0.5s ease-in-out; /* スムーズに背景を表示 */
+}
+
+.started {
+    background: url("images/000.png") no-repeat center center !important;
+    background-size: contain !important;
+}
+
+#startButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background: #ffaa00;
+}
+
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+}

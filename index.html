@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>パグブロック崩し</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>パグブロック崩し</h1>
+    <button id="startButton">スタート</button>
+    <div id="timer">00.00</div>
+    <canvas id="gameCanvas"></canvas>
+    <p>操作方法: <strong>A</strong>キー（左移動） / <strong>D</strong>キー（右移動）</p>
+    <audio id="bgm" src="sounds/bgm.mp3" loop></audio>
+    <audio id="wallHit" src="sounds/wall_hit.mp3"></audio>
+    <audio id="paddleHit" src="sounds/paddle_hit.mp3"></audio>
+    <audio id="brickBreak" src="sounds/brick_break.mp3"></audio>
+    <audio id="gameOverSound" src="sounds/gameover.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
